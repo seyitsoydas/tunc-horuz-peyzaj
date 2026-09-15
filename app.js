@@ -14,6 +14,8 @@ function showSlide(index){if(!slides.length)return;currentSlide=(index+slides.le
 document.querySelector('[data-slide-prev]')?.addEventListener('click',()=>showSlide(currentSlide-1));
 document.querySelector('[data-slide-next]')?.addEventListener('click',()=>showSlide(currentSlide+1));
 const hero=document.querySelector('.hero');
+const heroFilm=document.querySelector('.hero-film');
+heroFilm?.addEventListener('loadeddata',()=>{heroFilm.play().catch(()=>{});});
 let heroTouchX=null;
 hero?.addEventListener('touchstart',event=>{heroTouchX=event.changedTouches[0].clientX;},{passive:true});
 hero?.addEventListener('touchend',event=>{if(heroTouchX===null)return;const distance=event.changedTouches[0].clientX-heroTouchX;heroTouchX=null;if(Math.abs(distance)>50)showSlide(currentSlide+(distance<0?1:-1));},{passive:true});

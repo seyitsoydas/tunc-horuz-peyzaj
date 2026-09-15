@@ -1,0 +1,11 @@
+TUNÇ HORUZ — PEYZAJ MİMARLIĞI
+
+ZIP dosyasını bir klasöre çıkarın, index.html dosyasını tarayıcıda açın.
+
+12 bağımsız HTML sayfası vardır. Tunç Horuz'un portfolyosundan alınan beş proje paftası, profil fotoğrafı ve diğer görseller assets klasöründedir; site açıldığında uzak bir görsel kaynağına ihtiyaç duymaz.
+
+styles.css temel arayüzü, refined.css ise geliştirilmiş renk paletini, tipografiyi, topografik arka planları ve hareket detaylarını içerir.
+Telefon, tablet ve masaüstü ekranları için ayrı yerleşimler tanımlanmıştır.
+
+Hakkımda, iletişim, eğitim ve proje içerikleri Tunç Horuz'un portfolyo sunumuna göre düzenlenmiştir.
+İletişim formu e-posta göndermez; cihazınıza proje özeti indirir. Gerçek iletişim bilgileri ayrıca eklenmelidir.
